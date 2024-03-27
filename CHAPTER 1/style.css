@@ -1,0 +1,99 @@
+body, h1, h2 {
+    background-image: url(https://princessrapunzeltwine.weebly.com/uploads/1/4/7/8/147832527/untitled_design__3_.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-right: 20px;
+    background-attachment:fixed;
+    font-family: 'Brush Script MT', cursive;
+}
+
+* {
+    text-shadow: 5px 5px white;
+}
+code {
+    font-family: Consolas,"courier new";
+    color: crimson;
+    background-color: #f1f1f1;
+    padding: 2px;
+    font-size: 105%;
+}
+
+#demA {
+    font-size: 15px;
+    list-style-position: inside;
+    padding-left: 280px;
+}
+
+#demB {
+    font-size: 18px;
+    list-style-position: inside;
+    padding-left: 250px;
+    list-style-type: upper-roman;
+    text-align: justify;
+}
+
+#header2 {
+    text-align: right;
+    padding-top: 40px;
+    padding-right: 180px;
+    font-size: 60px;
+}
+
+.col {
+    float: left;
+    padding-left: 150px;
+    padding-top: 0 0 1px 0;
+    list-style-type: disc;
+}
+
+col b {
+    float: right;
+    padding-right: 150px;
+    padding-top: 0%;
+}
+
+br
+{   content: "A" !important;
+    display: block !important;
+    margin-bottom: 15% !important;
+}
+
+h1 {
+    color: brown;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 80px;
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 50px;
+    padding-left: 110px;
+    padding-top: 30px;
+    text-decoration-line: center;
+    color:rgb(129, 176, 114)
+}
+
+h3 {
+    font-size: 50px;
+    text-align: center;
+    color: brown;
+    text-decoration: underline overline;
+}
+
+
+code {
+    font-size: 15px;
+    text-align: left;
+    color: rgba(73, 141, 47, 0.045);
+}
+
+
+li {
+    list-style-position: outside;
+    color: rgb(160, 87, 87);
+    padding-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+

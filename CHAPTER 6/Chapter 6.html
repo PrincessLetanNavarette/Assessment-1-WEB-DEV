@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="6style.css" type="text/css" />
+    <title>Calculator</title>
+</head>
+<body>
+    <h1> Petrol Calculator </h1> </h1> <!-- Heading for the calculator -->
+    <form id="reset"> <!-- Form for the calculator with an ID of "reset" -->
+        <div class="container"> <!-- Container for input fields -->
+            Cost Per Liter:
+            <input type="number" id="cost" placeholder="Enter Cost" value="1.75"> <!-- Input field for cost per liter -->
+            <br><br>
+            How many liters:
+            <input type="number" id="buy" placeholder="Enter Quantity" value="000"> <!-- Input field for quantity of liters -->
+            <br> <br>
+            <div id="center">
+                <input type="button" value="Total" onclick="calculateTotal()" /> <!-- Button to calculate total -->
+                <input type="reset" value="Reset"  onclick="calculateTotal()"/> <!-- Button to reset form -->
+            </div>
+        </div>
+        <div class="container"> <!-- Additional container for messages -->
+            <p> Welcome To Petrol Calculator:</p>
+            <div id="center"> <!-- Centered container for messages -->
+                <p id="error-msg" display: none;">Please try again</p> <!-- Error message -->
+                <p id="result" display: none;>Enter valid amount</p> <!-- Result message -->
+            </div>
+        </div>
+    </form>
+    <script src="script.js"></script> <!-- Linking an external JavaScript file -->
+</body>
+</html>

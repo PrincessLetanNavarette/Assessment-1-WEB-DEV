@@ -1,0 +1,96 @@
+body {
+    background-color: #000;
+    color: #000080;
+    margin: 0;
+    padding: 0;
+}
+
+#reset {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 1px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 50%;
+    align-items: stretch;
+    margin: 5% 25%;
+    border: 5px groove #c0c0c0;
+}
+
+h1 {
+    text-align: left;
+    margin: 50px;
+    color: #c0c0c0;
+}
+input {
+    background-color: #c0c0c0;
+}
+input[type="button"]{
+    color: white; /* Set text color */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+/* Styling the Reset button */
+input[type="reset"] {
+    color: white; /* Set text color */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+input[type="button"]:hover {
+    border-color: green; /* Set background color */
+    color: green; /* Set text color */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+/* Styling the Reset button */
+input[type="reset"]:hover {
+    border-color: red; /* Set background color */
+    color: red; /* Set text color */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+input[type="button"]:focus {
+    background-color: green; /* Set background color */
+    color: white; /* Set text color */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+/* Styling the Reset button */
+input[type="reset"]:focus {
+    background-color: red; /* Set background color */
+    color: white; /* Set text color */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+.container {
+    width: 50%;
+    background-color: #bdbdd597;
+    padding: 15px;
+    display: block;
+    border: 5px groove #c0c0c0;
+}
+
+#error-msg {
+    /* CSS styles for the error message element */
+    display: none; /* Initially hide the error message */
+    color: rgb(143, 208, 31); /* Set text color to red */
+}
+
+#result {
+    /* CSS styles for the result message element */
+    display: none; /* Initially hide the result message */
+    color: rgb(143, 208, 31); /* Set text color to blue */
+}
+#center {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 15px;
+}
+
+* {
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 500; /* Adjust the weight value as needed */
+    font-style: normal;
+    /* display: inline; */
+    /* position: relative; */
+}

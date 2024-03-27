@@ -1,0 +1,206 @@
+/* Reset default margin and padding */
+body {
+    background-color: #C7B7A3;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+hr {
+    padding: 0px;
+    margin: 0px;
+    border-color: #E8D8C4;
+}
+/* Header styling */
+.header {
+    font-size: 35px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    color: #6D2932;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+.header a{
+    font-size: 35px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    color: #6D2932;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    text-decoration: none;
+    padding-left: 5px;
+}
+
+.header a:hover {
+    color: #036b22;
+    border-left: .5px groove #036b22;
+    padding-left: 5px;
+}
+/* Main navigation */
+.nav {
+    height: 0%;
+    font-size: 13px;
+    margin-left: 385px;
+    margin-right: 365px;
+    padding-bottom: 5px;
+}
+
+/* Links in the navigation */
+.nav a {
+    color: #561C24;
+    text-align: center;
+    padding-left: 1px;
+    padding-right: 1px;
+    margin-right: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+/* Italics in the navigation */
+
+
+/* Hover effect for navigation links */
+.nav a:hover {
+    color: #036b22;
+    border-left: .2px groove #036b22;
+}
+
+
+/* Text section */
+.text {
+    margin-left: 20px;
+    margin-top: 0;
+    width: fit-content ;
+}
+
+/* Heading inside text section */
+.text a {
+    color: #6D2932;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 80px;
+    margin: 0;
+    width: fit-content;
+    text-decoration: none;
+}
+
+/* Hover effect for text section heading */
+.text a:hover {
+    color: #2f1367;
+    text-decoration: line;
+}
+
+.title {
+    padding-top: 10px;
+    padding-left: 5px;
+    width: 60%;
+    margin-top: -50px;
+    margin-left: 250px;
+    color: #561C24;
+    font-size: 15px;
+    font-style: italic;
+    text-decoration: none;
+    border-left: 2px solid #EEF0E5;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Content styling */
+.content {
+    height: 370px;
+    margin: 30px;
+    padding: 30px;
+    position: relative;
+    overflow-y: scroll;
+}
+
+/* Paragraph styling in content */
+.content p {
+    color: #561C24;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: right;
+    padding: 20px;
+    padding-top: 5px;
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+.content a {
+    color: #561C24;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: right;
+    padding: 20px;
+    padding-top: 5px;
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+.content ul, li {
+    color: #561C24;
+    list-style: none;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    padding: 3px;
+    padding-top: 5px;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: right;
+    background-color: rgba(128, 128, 128, 0.41);
+    border: 1px solid rgba(0, 0, 0, 0.145);
+    border-radius: 3px;
+}
+
+.content h1 {
+    font-size: 35px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    color: #6D2932;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+.content button{
+    font-size: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #6d29323b;
+    border: 1px solid #561C24;
+    margin-left: 50%;
+}
+
+.say {
+    color: #561C24;
+    font-family:'Courier New', Courier, monospace;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 150px;
+    margin-left: 200px;
+    line-height: 1.2;
+    text-align: center;
+}
+
+/* Hover effect for paragraphs in content */
+.content p:hover {
+    color: #2f1367;
+    font-weight: 600;
+}
+
+.content ul:hover {
+    color: #2f1367;
+    font-weight: 600;
+}
+
+.content li:hover {
+    color: #2f1367;
+    font-weight: 600;
+}
+
+.content button:hover{
+    font-size: 10px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #086b2397;
+    border: 1px solid #036b22;
+    margin-left: 50%;
+}
+
